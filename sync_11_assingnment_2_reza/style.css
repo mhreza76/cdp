@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+  /* font-size: 16px; */
+
+}
+body {
+    background-color: #92CEE2;
+  }
+ 
+  .grid-container {
+    display: grid;
+    grid: 650px / auto auto auto;
+    grid-gap: 10px;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .grid-container > div {
+    /* background-color: rgba(210, 50, 50, 0.8); */
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .head{
+    display: grid;
+    grid-template-columns: .7fr 1fr;
+    padding: 30px 0px;
+    margin-left: 50px;  
+  }
+
+  .head-left{
+    min-height: 300px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;  
+    text-align: left;  
+  }
+  .head-right{
+    min-height: 300px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    
+  }
+
+  .foot{
+    display: grid;
+    grid-template-columns: minmax(200px, 2fr);
+    margin-left: 50px;
+
+  }
+
+  .foot-left{
+    height: 100px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    
+  }
+
+  .sub-container-left{
+    margin-left: 100px;
+  }
+
+  .sub-container-right{
+    margin-left: 150px;
+
+  }
+
+  .arrow_img{
+    width: 70px;
+    height: 80px;
+  }
+
+.color-ash{
+    color: rgb(206, 206, 213);
+}
+  input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: rgb(206, 206, 213)
+  }
+  input:focus {
+    border-color: green
+  }
+  
+
+  
+.button2 {
+  background-color: blue; 
+  border-radius: 17px;
+  border-color: blue;
+  color: white;
+  padding: 8px 40px;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
